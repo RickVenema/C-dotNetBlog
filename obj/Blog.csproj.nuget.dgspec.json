@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/data/programming/Blog/Blog.csproj": {}
+  },
+  "projects": {
+    "/data/programming/Blog/Blog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/data/programming/Blog/Blog.csproj",
+        "projectName": "Blog",
+        "projectPath": "/data/programming/Blog/Blog.csproj",
+        "packagesPath": "/home/rick/.nuget/packages/",
+        "outputPath": "/data/programming/Blog/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rick/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/80/sdk/5.0.100-preview.3.20216.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
